@@ -57,7 +57,7 @@ class FileHandler(FileSystemEventHandler):
         self.file_extensions[extension] = folder
 
 def initialize_watching():
-    handler = FileHandler(r'C:\Users\DOUGLASEDUARDOREISSI\Downloads')
+    handler = FileHandler(r'YOUR FOLDER HERE')
     observer = Observer()
     observer.schedule(handler, handler.tracked_folder, recursive=True)
     observer.start()
