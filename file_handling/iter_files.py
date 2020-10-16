@@ -26,5 +26,5 @@ class IterHandler(FileHandler):
 
 
 def initialize_iter():
-    handler = IterHandler(r'C:\Users\DOUGLASEDUARDOREISSI\Downloads')
+    handler = IterHandler(r'YOUR FOLDER HERE')
     handler.iter_folder()
