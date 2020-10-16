@@ -22,7 +22,7 @@ class IterHandler(FileHandler):
                     extension = self.file_extensions[key]
                     _dest = f'{self.tracked_folder}\\{extension}\\{file}'
                     move(f'{self.tracked_folder}\\{file}', _dest)
-                    print('Change detected! Moving file {} to folder {}'.format(file, _dest.split('\\')[-2]))
+                    print('Still itering... Moving file {} to folder {}'.format(file, _dest.split('\\')[-2]))
 
 
 def initialize_iter():
