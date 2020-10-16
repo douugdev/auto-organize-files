@@ -8,6 +8,7 @@ import time
 
 class FileHandler(FileSystemEventHandler):
 
+    # This probably belongs in a JSON, I know...
     file_extensions = {
         '.jpg'  : 'photos',
         '.png'  : 'photos',
